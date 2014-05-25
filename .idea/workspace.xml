@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7955e129-040a-46e5-9ff8-480f5d0981a3" name="Default" comment="HTML5 游戏开发 游戏引擎制作&#10;">
+    <list default="true" id="7955e129-040a-46e5-9ff8-480f5d0981a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\bg.png" afterPath="$PROJECT_DIR$/游戏场景/bg.png" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\class.js" afterPath="$PROJECT_DIR$/游戏场景/class.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\demo.html" afterPath="$PROJECT_DIR$/游戏场景/demo.html" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\demo2.html" afterPath="$PROJECT_DIR$/游戏场景/demo2.html" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\jquery.js" afterPath="$PROJECT_DIR$/游戏场景/jquery.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\main.js" afterPath="$PROJECT_DIR$/游戏场景/main.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\scene.js" afterPath="$PROJECT_DIR$/游戏场景/scene.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\sceneManager.js" afterPath="$PROJECT_DIR$/游戏场景/sceneManager.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\xevent.js" afterPath="$PROJECT_DIR$/游戏场景/xevent.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\xsys.js" afterPath="$PROJECT_DIR$/游戏场景/xsys.js" />
-      <change type="MOVED" beforePath="D:\work\xengine\游戏主窗口\xutil.js" afterPath="$PROJECT_DIR$/游戏场景/xutil.js" />
     </list>
     <ignored path="xengine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,7 +199,11 @@
       <created>1401031031135</created>
       <updated>1401031031135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HTML5 游戏开发 游戏引擎制作&#10;">
+      <created>1401034944719</created>
+      <updated>1401034944719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,7 +338,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/监控游戏fps/fps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="14" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.7620751" vertical-offset="594" max-vertical-offset="1260" />
+        <state line="51" column="14" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.7620751" vertical-offset="594" max-vertical-offset="1260">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/游戏场景/xsys.js">
