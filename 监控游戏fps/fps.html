@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>显示fps</title>
+    <style type="text/css">
+
+        .tc{
+            text-align: center;
+        }
+
+        .mb15{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="tc mb15">
+            最大帧数 : <span id="maxf"></span>
+        </div>
+
+        <div class="tc mb15">
+            最小帧数 : <span id="minf"></span>
+        </div>
+
+        <div class="tc mb15">
+            当前帧数 : <span id="currf"></span>
+        </div>
+
+</body>
+<script type="text/javascript" src="class.js"></script>
+<script type="text/javascript" src="xevent.js"></script>
+<script type="text/javascript" src="xsys.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">
+    var mx = document.getElementById("maxf");
+    var mi = document.getElementById("minf");
+    var cr = document.getElementById("currf");
+
+    var game = new Game();
+    game.addListener(new AppEventListener({
+        "afterRender" : function(){
+            //显示帧信息
+            mx.innerHTML = FrameState.maxFrame;
+            mi.innerHTML = FrameState.minFrame;
+            cr.innerHTML = FrameState.currFrame;
+        }
+    }));
+
+    //控制游戏运行速度
+    //开始飞奔
+    game.run(-1);
+    //指定帧数
+    //game.run(60)
+</script>
+</html>
