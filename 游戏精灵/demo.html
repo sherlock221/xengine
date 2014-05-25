@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>显示场景</title>
+    <style type="text/css">
+
+        .tc{
+            text-align: center;
+        }
+
+        .mb15{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="class.js"></script>
+<script type="text/javascript" src="xevent.js"></script>
+<script type="text/javascript" src="xsys.js"></script>
+<script type="text/javascript" src="scene.js"></script>
+<script type="text/javascript" src="sceneManager.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">
+    var mx = document.getElementById("maxf");
+    var mi = document.getElementById("minf");
+    var cr = document.getElementById("currf");
+
+    var game = new Game();
+
+    //创建游戏场景
+    var sc = game.sceneManager.createScene([{name:"title",x:30,y:10}]);
+
+    sc.setBGImg("bg.png",1);
+
+   // game.run(-1);
+</script>
+</html>
